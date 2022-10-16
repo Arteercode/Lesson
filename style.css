@@ -1,384 +1,376 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background:#E0E8FF;
-}
-
-.bg {
-    width: 100%;
-    top: 0;
-    position: absolute;
-}
-
-.img {
-    width: 100%;
-    height: 50vh;
-}
-
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(20%);
-}
-
-.rec {
-    position: relative;
-    width: 450px;
-    height: 697px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
-}
-
-
-.music { 
-    position: absolute;
-}
-
-.img2 {
-    width: 100%;
-}
-
-.head {
-    display: flex;
-    justify-content: center;
-    margin-top: 265px;
-}
-
-h1 {
-    text-align: center;
-    width: 354px;
-    height: 37px;
-    font-size: 28px;
-    font-weight: 900;
-    font-family: 'Red Hat Display', sans-serif;
-    color:#1F2E55;  
-}
-
-.paragraph {
-    display: flex;
-    justify-content: center;
-    margin-top: 17px;
-}
-
-.p {
-    text-align: center;
-    width: 354px;
-    height: 78px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Red Hat Display', sans-serif;
-    color: #717FA6;
-}
-
-.audio {
-    position: relative;
-    height: 98px;
-    width: 354px;
-    border-radius: 11px;
-    background-color: #F7F9FF;
-    margin: auto;
-    margin-top: 20px;
+  background-color:#19A1AE;
+  overflow: hidden;
 }
 
 .cyc {
-    position: absolute;
-    z-index: 1;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background-color: #DFE6FB;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 24px;
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  height: 976px;
+  width: 976px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+  margin-top: -500px;
+  margin-left: -70px;
+  opacity: 50%;
+  transform: rotate(-135deg);
 }
 
-.img3 {
-    height: 18px;
-    width: 17.85px;
-    margin-top: 15px;
+.cyc2 {
+  position: absolute;
+  height: 976px;
+  width: 976px;
+  border-radius: 50%;
+  margin-top: 70px;
+  margin-left: 1100px;
+  opacity: 0.25;
+  background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+  transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
 }
 
-.name {
-    position: absolute;
-    z-index: 2;
-    width: 117.199px;
-    height: 21px;
-    text-align: start;
-    font-size: 16px;
-    font-weight: 900;
-    font-family: 'Red Hat Display', sans-serif;
-    color: #1F2E55;
-    margin-top: 25px;
-    margin-left: 92px;
+.box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(80%);
+}
+
+.rectangle {
+  position: relative;
+  width: 350px;
+  height: 374px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+}
+
+.img1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.img2 {
+  position: absolute;
+  margin-top: 92px;
+  margin-left: 127px;
+  z-index: 2;
+  height: 96px;
+  width: 96px;
+}
+
+.h1 {
+  position: absolute;
+  text-align: center;
+  z-index: 3;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-top: 212px;
+  margin-left: 108px;
+  color: #2E3349;
+}
+
+.p1 {
+  position: absolute;
+  text-align: center;
+  z-index: 4;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-top: 212px;
+  margin-left: 220.5px;
+  color:#6B7082;
 }
 
 .p2 {
-    position: absolute;
-    z-index: 3;
-    width: 92px;
-    height: 21px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Red Hat Display', sans-serif;
-    color:#717FA6;
-    margin-top: 52px;
-    margin-left: 92px;
+  position: absolute;
+  text-align: center;
+  z-index: 5;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-top: 243px;
+  margin-left: 150px;
+  color:#6B7082;
 }
 
-.change {
-    position: absolute;
-    z-index: 4;
-    width: 52px;
-    height: 19px;
-    color: #382AE1;
-    font-size: 14px;
-    font-weight: 700;
-    font-family: 'Red Hat Display', sans-serif;
-    margin-top: 40px;
-    margin-left: 278px;
+.line {
+  position: absolute;
+  z-index: 6;
+  width: 100%;
+  height: 1px;
+  background-color:#E8E9EC;
+  margin-top: 285px;
 }
 
-.change:active {
-    text-decoration: none;
-    color: #766CF1;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 47px;
-}
-
-.btn {
-    height: 50px;
-    width: 354px;
-    cursor: pointer;
-    border-radius: 11px;
-    background-color: #382AE1;
-    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
-    border: none;
-}
-
-.btn:active {
-    background-color:#766CF1;
+.desc {
+  position: relative;
+  z-index: 7;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 310px;
 }
 
 .p3 {
-    color: white;
-    font-size: 15px;
-    font-weight: 900;
-    font-family: 'Red Hat Display', sans-serif;
-}
-
-.cancel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #2E3349;
 }
 
 .p4 {
-    color:#717FA6;
-    font-size: 15px;
-    font-weight: 900;
-    font-family: 'Red Hat Display', sans-serif;
-    cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #2E3349;
 }
 
-.p4:active {
-   color:#1F2E55; 
+.p5 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #2E3349;
 }
+
+.p6 {
+  position: absolute;
+  z-index: 8;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-top: 9px;
+  margin-left: 48.5px;
+  color: #6B7082;
+}
+
+.p7 {
+  position: absolute;
+  z-index: 9;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-top: 9px;
+  margin-left: 161px;
+  color: #6B7082;
+}
+
+.p8 {
+  position: absolute;
+  z-index: 10;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-top: 9px;
+  margin-left: 254.5px;
+  color: #6B7082;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:375px) {
-    .bg {
-        width: 100%;
-        top: 0;
-        position: absolute;
-    }
-    
-    .img {
-        width: 100%;
-        height: 50vh;
-    }
-    
-    .box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translateY(20%);
-    }
-    
-    .rec {
-        position: relative;
-        width: 327px;
-        height: 567px;
-        background-color: white;
-        border-radius: 20px;
-        box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
-    }
-    
-    
-    .music { 
-        position: absolute;
-    }
-    
-    .img2 {
-        width: 100%;
-    }
-    
-    .head {
-        display: flex;
-        justify-content: center;
-        margin-top: 192px;
-    }
-    
-    h1 {
-        text-align: center;
-        width: 263px;
-        height: 29px;
-        font-size: 22px;
-        font-weight: 900;
-        font-family: 'Red Hat Display', sans-serif;
-        color:#1F2E55;  
-    }
-    
-    .paragraph {
-        display: flex;
-        justify-content: center;
-        margin-top: 16px;
-    }
-    
-    .p {
-        text-align: center;
-        width: 263px;
-        height: 75px;
-        font-size: 15px;
-        font-weight: 500;
-        font-family: 'Red Hat Display', sans-serif;
-        color: #717FA6;
-    }
-    
-    .audio {
-        position: relative;
-        width: 263px;
-        height: 75px;
-        border-radius: 11px;
-        background-color: #F7F9FF;
-        margin: auto;
-        margin-top: 20px;
-    }
-    
-    .cyc {
-        position: absolute;
-        z-index: 1;
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-        background-color: #DFE6FB;
-        margin-top: 15px;
-        margin-bottom: 25px;
-        margin-left: 16px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .img3 {
-        height: 18px;
-        width: 17.85px;
-        margin-top: 15px;
-    }
-    
-    .name {
-        position: absolute;
-        z-index: 2;
-        width: 88.66px;
-        height: 19px;
-        text-align: start;
-        font-size: 14px;
-        font-weight: 900;
-        font-family: 'Red Hat Display', sans-serif;
-        color: #1F2E55;
-        margin-top: 21px;
-        margin-left: 82px;
-    }
-    
-    .p2 {
-        position: absolute;
-        z-index: 3;
-        width: 81px;
-        height: 19px;
-        font-size: 14px;
-        font-weight: 500;
-        font-family: 'Red Hat Display', sans-serif;
-        color:#717FA6;
-        margin-top: 43px;
-        margin-left: 84px;
-    }
-    
-    .change {
-        position: absolute;
-        z-index: 4;
-        width: 48px;
-        height: 17px;
-        color: #382AE1;
-        font-size: 13px;
-        font-weight: 700;
-        font-family: 'Red Hat Display', sans-serif;
-        margin-top: 33px;
-        margin-left: 200px;
-    }
-    
-    .change:active {
-        text-decoration: none;
-        color: #766CF1;
-    }
-    
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 24px;
-    }
-    
-    .btn {
-        width: 279px;
-        height: 50px;
-        cursor: pointer;
-        border-radius: 11px;
-        background-color: #382AE1;
-        box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
-        border: none;
-    }
-    
-    .p3 {
-        color: white;
-        font-size: 15px;
-        font-weight: 900;
-        font-family: 'Red Hat Display', sans-serif;
-    }
-    
-    .cancel {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 24px;
-    }
-    
-    .p4 {
-        color:#717FA6;
-        font-size: 15px;
-        font-weight: 900;
-        font-family: 'Red Hat Display', sans-serif;
-        cursor: pointer;
-    }
-    
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:#19A1AE;
+    overflow: hidden;
+  }
+  
+  .cyc {
+    position: absolute;
+    width: 622px;
+    height: 621px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+    margin-top: -400px;
+    margin-left: -400px;
+    opacity: 25%;
+    transform: rotate(-135deg);
+  }
+  
+  .cyc2 {
+    position: absolute;
+    width: 622px;
+    height: 621px;
+    margin-top: 365px;
+    margin-left: 160px;
+    opacity: 0.25;
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+    transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
+  }
+  
+  .box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(40%);
+  }
+  
+  .rectangle {
+    position: relative;
+    width: 326px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  }
+  
+  .img1 {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .img2 {
+    position: absolute;
+    margin-top: 92px;
+    margin-left: 117px;
+    z-index: 2;
+    height: 96px;
+    width: 96px;
+  }
+  
+  .h1 {
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 212px;
+    margin-left: 108px;
+    color: #2E3349;
+  }
+  
+  .p1 {
+    position: absolute;
+    text-align: center;
+    z-index: 4;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 212px;
+    margin-left: 220.5px;
+    color:#6B7082;
+  }
+  
+  .p2 {
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 243px;
+    margin-left: 150px;
+    color:#6B7082;
+  }
+  
+  .line {
+    position: absolute;
+    z-index: 6;
+    width: 100%;
+    height: 1px;
+    background-color:#E8E9EC;
+    margin-top: 285px;
+  }
+  
+  .desc {
+    position: relative;
+    z-index: 7;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 310px;
+  }
+  
+  .p3 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #2E3349;
+  }
+  
+  .p4 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #2E3349;
+  }
+  
+  .p5 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #2E3349;
+  }
+  
+  .p6 {
+    position: absolute;
+    z-index: 8;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 9px;
+    margin-left: 48.5px;
+    color: #6B7082;
+  }
+  
+  .p7 {
+    position: absolute;
+    z-index: 9;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 9px;
+    margin-left: 161px;
+    color: #6B7082;
+  }
+  
+  .p8 {
+    position: absolute;
+    z-index: 10;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 9px;
+    margin-left: 254.5px;
+    color: #6B7082;
+  }
+  
 }
